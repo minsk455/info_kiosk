@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="all">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="media/rnps.jpg" alt="логотип">
+            </div>
+            <div class="main-name">Государственное учреждение «Республиканский научно-практический центр спорта»</div>
+        </header>
+        <main>
+            <menu>
+                <a href="pages/ru/contacts.html"><div class=menu-button>Контакты</div></a>
+                <a href="pages/ru/prices.html"><div class=menu-button>Платные услуги</div></a>
+                <a href="pages/ru/BelarusTourist.html"><div class=menu-button><div>Беларусь туристическая</div></div></a>
+                <a href="pages/ru/eurGames.html" style="display: none"><div class=menu-button><div>Европейские игры</div></div></a>
+                <a href="pages/ru/visit_shedule.html"><div class=menu-button><div>График приема</div></div></a>
+                <a href="pages/ru/news.html"><div class=menu-button><div>Новости</div></div></a>
+                <a href="pages/ru/stage_schema.html"><div class=menu-button><div>Расположение кабинетов РНПЦ Спорта</div></div></a>
+                <a href="index_en.html"><div class=menu-button><div>RU / EN</div></div></a>
+            </menu>
+            
+            <div id="mySwipe" class="swipe">
+              <div class="swipe-wrap">
+                <!--<div class="slide slide-1"><img src="media/mainImages/1.jpg"></div>
+                    <div class="slide slide-2"><img src="media/mainImages/2.jpg"></div>
+                    <div class="slide slide-3"><img src="media/mainImages/3.jpg"></div>
+                    <div class="slide slide-4"><img src="media/mainImages/4.jpg"></div>
+                    <div class="slide slide-5"><img src="media/mainImages/5.jpg"></div>
+                    <div class="slide slide-6"><img src="media/mainImages/6.jpg"></div>-->
+                    <div class="slide slide-7"><img src="media/mainImages/7.jpg"></div>
+                    <div class="slide slide-8"><img src="media/mainImages/8.jpg"></div>
+                    <div class="slide slide-9"><img src="media/mainImages/9.jpg"></div>
+                    <div class="slide slide-10"><img src="media/mainImages/10.jpg"></div>
+                    <div class="slide slide-11"><img src="media/mainImages/11.jpg"></div>
+                    <div class="slide slide-12"><img src="media/mainImages/12.jpg"></div>
+                    <div class="slide slide-13"><img src="media/mainImages/13.jpg"></div>
+                    <div class="slide slide-14"><img src="media/mainImages/14.jpg"></div>
+              </div>
+            </div>
+            <!--
+            <a class="btn btn-primary" id="prev">Prev</a>
+            <a class="btn btn-primary" id="next">Next</a>
+            -->
+        </main>
+        <footer>
+            <script src="js/swipe.js"></script>
+            <script>
+                var element = document.getElementById('mySwipe'),
+                prevBtn = document.getElementById('prev'),
+                nextBtn = document.getElementById('next');
+
+                window.mySwipe = new Swipe(element, {
+                  startSlide: 0,
+                  speed: 1000,
+                  auto: 3000,
+                  draggable: false,
+                  continuous: true,
+                  autoRestart: false,
+                  disableScroll: false, // prevent touch events from scrolling the page
+                  stopPropagation: false, 
+                  callback: function(index, elem, dir) {},
+                  transitionEnd: function(index, elem) {}
+                });
+            </script>
+        </footer>
+    </body>
+</html>

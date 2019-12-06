@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    
+}
+
+header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+.main-name{
+    display: flex;
+    font-size: 45px;
+    color: dodgerblue;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+main{
+    display: flex;
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 0;
+}
+.menu-button{
+    display: flex;
+    min-height: 50px;
+    padding: 0 10px 0 10px;
+    color: aliceblue;
+    background-color: #095cb1;
+    border: 1px solid black;
+    align-items: center;
+    //box-sizing: border-box;
+    font-size: 26px;
+    
+}
+menu:last-child{
+    margin: 10px 0 0 0;
+}
+a{
+    text-decoration: none;
+}
+.slide>img{
+    width: 100%;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#mySwipe{
+    margin: 10 0 0 10;
+    width: 760;
+    //height: 500;
+}
