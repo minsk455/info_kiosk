@@ -1,1 +1,1 @@
-# info_kiosk
+# info_kiosk_html
