@@ -20,7 +20,7 @@ header{
     font-size: 30px;
     font-family: 'Verdana', sans-serif;
     font-weight: 900;
-    color: rgba(197, 38, 39, 1);
+    color: rgb (197, 38, 39, 1);
     padding: 6 0 0 0px;
     margin: 0 0 0 30px;
     justify-content: center;
@@ -40,7 +40,7 @@ menu{
 }
 .menu-button{
     display: flex;
-    min-height: 52px;
+    min-height: 60px;
     font-family: 'Verdana', sans-serif;
     padding: 0 10px 0 10px;
     color: aliceblue;
@@ -62,7 +62,9 @@ a{
     text-decoration: none;
 }
 .slide>img{
-    width: 100%;
+    width: 750;
+    height: 450;
+}
 }
 
 .swipe {
