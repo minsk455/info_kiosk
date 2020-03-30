@@ -7,21 +7,24 @@ body{
 
 header{
     display: flex;
-    height: 200px;
+    height: auto;
     width: 100%;
 }
 
 .logo img{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 120px;
 }
 .main-name{
     display: flex;
-    font-size: 45px;
-    color: dodgerblue;
-    padding: 20px;
+    font-size: 30px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 900;
+    color: rgba(197, 38, 39, 1);
+    padding: 6 0 0 0px;
+    margin: 0 0 0 30px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     
 }
 main{
@@ -31,21 +34,26 @@ menu{
     display: flex;
     flex-direction: column;
     height: 390px;
-    width: 300px;
+    width: 320px;
     margin: 10px 0;
     padding: 0;
 }
 .menu-button{
     display: flex;
-    min-height: 50px;
+    min-height: 52px;
+    font-family: 'Verdana', sans-serif;
     padding: 0 10px 0 10px;
     color: aliceblue;
-    background-color: #095cb1;
-    border: 1px solid black;
+   // background-color: #095cb1;
     align-items: center;
+    border-radius: 15px;
     //box-sizing: border-box;
-    font-size: 26px;
-    
+    font-size: 22px;
+    margin: 1 0;
+    background: linear-gradient(to top, #2c3886, #00519b);
+}
+menu:nth-child(4){
+    padding: 5px;
 }
 menu:last-child{
     margin: 10px 0 0 0;
@@ -76,6 +84,6 @@ a{
 
 #mySwipe{
     margin: 10 0 0 10;
-    width: 760;
-    //height: 500;
+    width: 750;
+    height: 450;
 }
