@@ -13,16 +13,16 @@ header{
 
 .logo img{
     width: auto;
-    height: 120px;
+    height: 140px;
 }
 .main-name{
     display: flex;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Verdana', sans-serif;
     font-weight: 900;
-    color: rgba(197, 38, 39, 1); 
+    color: rgba(197, 38, 39, 1);
     padding: 6 0 0 0px;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 35px;
     justify-content: center;
     text-align: left;
     
@@ -33,14 +33,14 @@ main{
 menu{
     display: flex;
     flex-direction: column;
-    height: 390px;
-    width: 320px;
+    height: 470px;
+    width: 355px;
     margin: 10px 0;
     padding: 0;
 }
 .menu-button{
     display: flex;
-    min-height: 60px;
+    min-height: 65px;
     font-family: 'Verdana', sans-serif;
     padding: 0 10px 0 10px;
     color: aliceblue;
@@ -48,7 +48,7 @@ menu{
     align-items: center;
     border-radius: 15px;
     //box-sizing: border-box;
-    font-size: 22px;
+    font-size: 24px;
     margin: 1 0;
     background: linear-gradient(to top, #2c3886, #00519b);
 }
@@ -62,9 +62,7 @@ a{
     text-decoration: none;
 }
 .slide>img{
-    width: 750;
-    height: 450;
-}
+    width: 100%;
 }
 
 .swipe {
@@ -87,5 +85,5 @@ a{
 #mySwipe{
     margin: 10 0 0 10;
     width: 750;
-    height: 450;
+    height: 470;
 }
