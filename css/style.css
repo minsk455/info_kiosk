@@ -20,7 +20,7 @@ header{
     font-size: 30px;
     font-family: 'Verdana', sans-serif;
     font-weight: 900;
-    color: rgb (197, 38, 39, 1);
+    color: rgba(197, 38, 39, 1); 
     padding: 6 0 0 0px;
     margin: 0 0 0 30px;
     justify-content: center;
