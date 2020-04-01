@@ -40,9 +40,9 @@ menu{
 }
 .menu-button{
     display: flex;
-    min-height: 65px;
-    font-family: 'Verdana', sans-serif;
-    padding: 0 10px 0 10px;
+    min-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5px 0 5px;
     color: aliceblue;
    // background-color: #095cb1;
     align-items: center;
