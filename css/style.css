@@ -40,7 +40,7 @@ menu{
 }
 .menu-button{
     display: flex;
-    min-height: 60px;
+    min-height: 62px;
     font-family: 'Open Sans', sans-serif;
     padding: 0 5px 0 5px;
     color: aliceblue;
