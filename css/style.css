@@ -41,7 +41,7 @@ menu{
 .menu-button{
     display: flex;
     min-height: 62px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
     padding: 0 5px 0 5px;
     color: aliceblue;
    // background-color: #095cb1;
